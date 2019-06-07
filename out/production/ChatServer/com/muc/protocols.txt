@@ -1,0 +1,24 @@
+User & Server
+
+1. User --> Server
+    * login / logout
+    * status
+
+2. Server --> User
+    * online / offline
+
+3. User --> User
+    * direct messages
+    * broadcast messages
+
+Commands:
+    login <user> <password>
+    logout
+
+    send <user> content
+    admin: "send guest Hi"
+
+    #topic
+    join #topic
+    leave #topic
+    send #topic content
